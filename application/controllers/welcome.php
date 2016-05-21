@@ -34,6 +34,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('biodata');
 	}
+	public function lihat_info()
+		{
+		echo "<head><title>Pelatihan Code Igniter 2014</title></head>";
+		echo "<h1>Pelatihan Code Igniter 2014</h1>";
+		echo "<h3>Presented by Lab Basis Data Ilmu Komputer UPI</h3>";
+		echo "CodeIgniter merupakan salah satu <i>web framework</i> PHP yang sangat mudah dan menarik.";
+		echo "Saya menghadiri ini untuk mulai mengenal dan mempelajari CodeIgniter";
+		}
 }
 
 /* End of file welcome.php */
